@@ -1,0 +1,28 @@
+body {
+    background-color: orange;
+    border: 5px solid blue;
+    height: 40em;
+    border-radius: 20px;
+}
+
+.greet {
+    font-size: 6em;
+    margin: auto;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    padding: 50px;
+    font-style: italic;
+    color: #A52A2A;
+}
+
+html {
+    border: 5px solid;
+    width: auto;
+}
+
+.input {
+    text-align: center;
+}
