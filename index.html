@@ -17,18 +17,17 @@
     <div class="input">
         <input type="text" class="user" name="text1" placeholder="Your name">
         <br>
-        <form>
+        <form >
             <input type="radio" name="language" value="IsiXhosa"> IsiXhosa
             <input type="radio" name="language" value="English"> English
             <input type="radio" name="language" value="Afrikaans"> Afrikaans
 
-            <input type="button" name="greet" value="Greet" onclick="" class="btn">
-            <!-- <button id="reset">Reset</button> -->
-             <!-- <input type="button" name="reset" value="Reset" class="resetBtn"> -->
-            <!-- <button type="reset" value="Reset">Reset</button> -->
+            <input type="button" name="greet" value="Greet" onClick="" class="btn">
             <p class="para"></p>
+
         </form>
-            <p id="counter"></p>
+        <input id="resetBtn" type="button" onClick="reset()" value="Reset">
+        <p id="counter"></p>
     </div>
 </body>
 <script src="greet.js" charset="utf-8"></script>
